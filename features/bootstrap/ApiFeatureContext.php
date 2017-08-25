@@ -9,6 +9,7 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 use Symfony\Component\Console\Output\ConsoleOutput;
+use Symfony\Component\DomCrawler\Crawler;
 
 require_once __DIR__  . '/../../../../../vendor/phpunit/phpunit/src/Framework/Assert/Functions.php';
 
