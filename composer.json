@@ -10,7 +10,7 @@
     ],
     "autoload" : {
        "psr-4":{
-           "TheJager\\Behat\\Features": "features/bootstrap/"
+           "TheJager\\Behat\\Features\\": "features/bootstrap/"
        }
     },
     "require": {
