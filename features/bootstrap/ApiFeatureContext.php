@@ -1,4 +1,5 @@
 <?php
+namespace TheJager\Behat\Features;
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Hook\Scope\AfterScenarioScope;
@@ -9,7 +10,7 @@ use GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\ResponseInterface;
 use Symfony\Component\Console\Output\ConsoleOutput;
 
-require_once __DIR__  . '/../../vendor/phpunit/phpunit/src/Framework/Assert/Functions.php';
+require_once __DIR__  . '/../../../../../vendor/phpunit/phpunit/src/Framework/Assert/Functions.php';
 
 
 /**

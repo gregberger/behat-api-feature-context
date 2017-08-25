@@ -8,6 +8,11 @@
           "homepage":"https://github.com/thejager"
         }
     ],
+    "autoload" : {
+       "psr-4":{
+           "TheJager\\Behat\\Features": "features/bootstrap/"
+       }
+    },
     "require": {
         "behat/behat": "^3.2",
         "guzzlehttp/guzzle": "^6.2"
