@@ -1,4 +1,13 @@
 {
+    "name" : "thejager/behat-api-feature-context",
+    "version" : "1.0.0",
+    "description": "Behat context file for testing JSON-based API's.",
+    "authors": [
+        {
+          "name":"Johan de Jager",
+          "homepage":"https://github.com/thejager"
+        }
+    ],
     "require": {
         "behat/behat": "^3.2",
         "guzzlehttp/guzzle": "^6.2"
